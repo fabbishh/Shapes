@@ -29,10 +29,10 @@ namespace TestProject1
             Assert.Equal(78.5, Math.Round(circleArea, 1));
         }
 
-/*        [Fact]
+        [Fact]
         public void ShapeFactory_CreateShape_ThrowsNotSupportedException()
         {
             Assert.Throws<NotSupportedException>(() => ShapeFactory.CreateShape(ShapeType.Square, 5));
-        }*/
+        }
     }
 }
